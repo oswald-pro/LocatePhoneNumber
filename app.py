@@ -3,7 +3,8 @@ import folium
 from PhoneNumbers import number
 from phonenumbers import geocoder
 
-Api_key = 'bb2e4f7260654fe9a827c15cd1ed6bed'
+# Get your API key from https://opencagedata.com/
+Api_key = '<YOUR API KEY>'
 
 oswaldNumber = phonenumbers.parse(number)
 
